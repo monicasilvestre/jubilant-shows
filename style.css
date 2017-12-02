@@ -27,3 +27,19 @@ h1, p {
 	background-color: rgb(102, 190, 0);
 	color: white;
 }
+
+.carousel-item {
+	height: 400px;
+	width: 100%;
+	overflow: hidden;
+   }
+   
+   .carousel-item img {
+	   height: auto;
+	   width: 100%;
+	   min-width: 90%;
+   }
+   
+   .jumbotron{
+	   margin-bottom: 0rem;
+   }
