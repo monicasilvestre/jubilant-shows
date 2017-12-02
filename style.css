@@ -5,6 +5,7 @@ h1, p {
 .img-brand{
 	content: url(images/logoDesktop.png);
 	max-height: 3rem;
+	margin-right: 2rem;
 }
 
 @media (max-width: 47.9em) { 
@@ -12,7 +13,12 @@ h1, p {
 		content: url(images/logoSmall.png);
 		width: auto;
 		padding-left: 0;
+		margin-right: 0;
 		}
+}
+
+.jumbotron{
+	display: list-item;
 }
 
 .jumbotron h2{
