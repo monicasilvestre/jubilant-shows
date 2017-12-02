@@ -7,7 +7,7 @@ Biggest changes vs Bootstrap 3:
   - Has official support for Android v5.0 Lollipop’s Browser and WebView;
   - Mobile first;
   - Switched from LESS to SASS;
-  - Default is now rem, not px;
+  - Default is now rem, not px. Rem scales easier across device sizes;
   - Dropped the Glyphicons;
   - Updated responsive grid system: 
       .col- (extra small devices - screen width less than 576px)

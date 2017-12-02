@@ -9,8 +9,21 @@ h1, p {
 
 @media (max-width: 47.9em) { 
 	.img-brand { 
-		content: url(images/logoSmall.png); 
-		max-width: 3rem;
-		height: auto;
+		content: url(images/logoSmall.png);
+		width: auto;
+		padding-left: 0;
 		}
+}
+
+.jumbotron h2{
+	line-height: inherit;
+}
+
+.color-green{
+	color: rgb(102, 190, 0);
+}
+
+.highlight-green{
+	background-color: rgb(102, 190, 0);
+	color: white;
 }

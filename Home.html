@@ -13,46 +13,73 @@
 </head>
 
 <body>
-    <!-- Navigation-->
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">
-            <img class="rounded img-brand mr-4" alt="total jobs logo">
-        </a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active  mr-4">
-                    <a class="nav-link" href="#">Offers
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item  mr-4">
-                    <a class="nav-link" href="#">Companies hiring</a>
-                </li>
-                <li class="nav-item  mr-4">
-                    <a class="nav-link" href="#">My career</a>
-                </li>
-                <li class="nav-item dropdown  mr-4">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">My area
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Saved jobs</a>
-                        <a class="dropdown-item" href="#">Applied</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">My cv</a>
+    <div class="container">
+        <!-- Navigation-->
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img class="rounded img-brand mr-4" alt="total jobs logo">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active  mr-4">
+                        <a class="nav-link" href="#">Offers
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item  mr-4">
+                        <a class="nav-link" href="#">Companies hiring</a>
+                    </li>
+                    <li class="nav-item  mr-4">
+                        <a class="nav-link" href="#">My career</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">My area
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Saved jobs</a>
+                            <a class="dropdown-item" href="#">Applied</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">My cv</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <h2 class="color-green col-12">We'll get you
+                        <mark class="highlight-green">noticed</mark>
+                    </h2>
+                    <div class="col-12">
+                        <hr class="my-4">
                     </div>
-                </li>
-            </ul>
+                    <!-- search for jobs -->
+                    <form class="form-inline col-12">
+                        <label class="sr-only" for="inlineFormInput">What</label>
+                        <input type="text" class="form-control form-control-lg col-lg-4 col-12 mr-2 mb-1" id="lgFormGroupInput" placeholder="job title, skill or company">
+                        <label class="sr-only" for="inlineFormInput">Where</label>
+                        <input type="text" class="form-control form-control-lg col-lg-3 col-12 mr-2 mb-1" id="lgFormGroupInput" placeholder="town, city or postcode">
+                        <select class="custom-select form-control-lg col-lg-2 col-12 mr-2 mb-1" id="inlineFormCustomSelect">
+                            <option selected>5 miles</option>
+                            <option value="1">10 miles</option>
+                            <option value="2">20 miles</option>
+                        </select>
+                        <button type="search" class="btn btn-lg btn-outline-success col-lg-2 col-12 mb-1">Search</button>
+                    </form>
+                </div>
+            </div>
         </div>
-    </nav>
-    <h1>Hello Home!</h1>
+    </div>
 
     <footer>
-        <p>&copy; Not really TotalJobs 2017</p>
+        <p class="text-center">&copy; Not really TotalJobs 2017</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
