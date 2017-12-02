@@ -49,3 +49,8 @@ h1, p {
    .jumbotron{
 	   margin-bottom: 0rem;
    }
+
+   .card-img-top{
+	max-height:10rem;
+	width:auto;
+}
