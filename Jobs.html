@@ -15,42 +15,50 @@
 
 <body>
 
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="./Home.html">
-            <img class="rounded img-brand" alt="total jobs logo">
-        </a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active  mr-4">
-                    <a class="nav-link" href="#">Offers
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item  mr-4">
-                    <a class="nav-link" href="#">Companies hiring</a>
-                </li>
-                <li class="nav-item  mr-4">
-                    <a class="nav-link" href="#">My career</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">My area
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Saved jobs</a>
-                        <a class="dropdown-item" href="#">Applied</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">My cv</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="./Home.html">
+                    <img class="rounded img-brand" alt="total jobs logo">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active  mr-4">
+                            <a class="nav-link" href="#">Offers
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item  mr-4">
+                            <a class="nav-link" href="#">Companies hiring
+                                <span class="badge badge-secondary">New</span>
+                            </a>
+                        </li>
+                        <li class="nav-item  mr-4">
+                            <a class="nav-link" href="#">My career</a>
+                        </li>
+                        <li class="nav-item dropdown mr-4">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">My area
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Saved jobs</a>
+                                <a class="dropdown-item" href="#">Applied</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">My cv</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Notifications
+                                <span class="badge badge-warning">3</span>
+                            </a>
+                        </li>
+        
+                    </ul>
+                </div>
+            </nav>
     <main role="main">
         <div class="container">
             <br>
@@ -70,8 +78,8 @@
                     </button>
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                              <div class="modal-content">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
                                 <div class="modal-header">
                                     <h5 class="modal-title">More about King in the North</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -194,6 +202,29 @@
                 </div>
             </div>
         </div>
+        <!-- Pagination -->
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <span class="page-link">Previous</span>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item active">
+                    <span class="page-link">
+                        2
+                        <span class="sr-only">(current)</span>
+                    </span>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
     </main>
     <br>
     <footer>
